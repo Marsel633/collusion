@@ -1,3 +1,129 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+
+
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* slider janara */
+a {
+    text-decoration: none;
+}
+
+
+.women-fasion__title {
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #22262A;
+    text-transform: uppercase;
+}
+
+.women-fasion__subtitle {
+    text-align: center;
+    font-family: 'Poppins' , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    color: #22262A;
+    padding-bottom: 60px;
+
+}
+
+.box {
+    overflow: hidden;
+    margin: 10px;
+}
+
+
+.silde-img {
+    width: 268px;
+    height: 371px;
+    position: relative;
+}
+
+
+.slide-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-sizing: border-box;
+}
+
+.detail-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+
+.type a {
+    color: #22262A;
+    margin: 5px 0;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    padding-right: 8px;
+}
+
+
+.overlay {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    background-color: rgba(92, 95, 236, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.buy-btn {
+    width: 160px;
+    height: 40px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #252525;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+}
+
+.buy-btn:hover {
+    color: #FFFFFF;
+    background-color: #f15fa3;
+    transition: all ease 0.3s;
+}
+
+.overlay {
+    visibility: hidden;
+}
+
+
+.slider {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -28,6 +28,14 @@
   }
 
 @media screen and (max-width: 1200px) {
+    .collusion__content,
+    .avone__title {
+        font-size: 1em;
+    }
+
+    .collusion__title {
+        font-size: 4em;
+    }
     .tachen__content {
         display: flex;
         flex-direction: column;
@@ -150,9 +158,5 @@
         gap: 25px;
         text-align: start;
     }
-}
-
-@media screen and (max-width: 810px) {
-    
 }
 

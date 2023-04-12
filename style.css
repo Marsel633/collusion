@@ -87,6 +87,10 @@ img {
 
 /* avone block */
 
+.avone {
+    padding: 30px 0;
+}
+
 .avone__title {
   text-align: center;
   font-weight: 700;
@@ -143,20 +147,18 @@ img {
     font-family: 'Poppins', sans-serif;
 }
 
-
-@import url(../media.css/media.css);
-
 .tachen {
     background-image: url(./img/17\ 1.png);
     background-repeat: no-repeat;
-
-    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
 }
 
 .tachen__content {
     display: flex;
     flex-direction: column;
-    height: 800px;
+    height: 700px;
     justify-content: end;
 }
 

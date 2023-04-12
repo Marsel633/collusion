@@ -214,9 +214,9 @@ footer {
     gap: 5px;
 }
 
-.footer__left-email p {
+.footer__left-email span:first-child {
     border-bottom: 2px solid grey;
-    width: 32%;
+    width: max-content;
     padding-bottom: 5px;
 }
 
@@ -280,6 +280,13 @@ footer {
 .footer__info {
     display: flex;
     gap: 50px;
+}
+
+.footer__info a {
+    color: #000;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 20px;
 }
 
 .footer__info-1 {

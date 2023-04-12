@@ -85,7 +85,6 @@ img {
   margin: 17px;
 }
 
-
 /* category */
 .category {
   padding: 123px 0 114px;
@@ -102,8 +101,6 @@ img {
   column-gap: 25px;
   padding-top: 15px;
 }
-
-
 
 /* women fashion */
 
@@ -162,7 +159,6 @@ ul {
   transform: scale(1.2);
 }
 
-
 .slide-img img {
   width: 100%;
   height: 100%;
@@ -179,7 +175,6 @@ ul {
   box-sizing: border-box;
 }
 
-
 .type a {
   color: #22262A;
   margin: 5px 0;
@@ -187,7 +182,6 @@ ul {
   letter-spacing: 0.5px;
   padding-right: 8px;
 }
-
 
 .slider {
   width: 100%;
@@ -208,18 +202,15 @@ ul {
   column-gap: 22px;
 }
 
-
 .man-fashion__img-cover {
   display: inline-block;
   overflow: hidden;
 }
 
-
 .man-fashion__img {
   transition: 1s;
   display: block;
 }
-
 
 .man-fashion__img:hover {
   transform: scale(1.2);
@@ -244,7 +235,6 @@ ul {
   color: #22262A;
 }
 
-
 .man-fashion__price {
   font-family: 'Poppins', sans-serif;
   display: flex;
@@ -258,7 +248,6 @@ ul {
   color: #22262A;
   text-decoration: line-through;
 }
-
 
 .man-fashion__red {
   color: red;
@@ -321,7 +310,6 @@ ul {
 
   font-family: 'Poppins', sans-serif;
 }
-
 
 /* tachen block */
 

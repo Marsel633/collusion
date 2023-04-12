@@ -1,129 +1,142 @@
 body {
-    font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
-
-
 
 .container {
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
 }
 
-/* slider janara */
-a {
-    text-decoration: none;
+img {
+  max-width: 100%;
 }
 
-
-.women-fasion__title {
-    text-align: center;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 30px;
-    text-align: center;
-    color: #22262A;
-    text-transform: uppercase;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
 }
 
-.women-fasion__subtitle {
-    text-align: center;
-    font-family: 'Poppins' , sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 22px;
-    text-align: center;
-    color: #22262A;
-    padding-bottom: 60px;
-
+.list {
+  display: flex;
+  gap: 30px;
 }
 
-.box {
-    overflow: hidden;
-    margin: 10px;
+.list li a {
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #333;
+  text-decoration: none;
 }
 
-
-.silde-img {
-    width: 268px;
-    height: 371px;
-    position: relative;
+.burger-menu {
+  padding-left: 20px;
 }
 
-
-.slide-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    box-sizing: border-box;
+#toggler,
+.burger-btn {
+  display: none;
 }
 
-.detail-box {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    box-sizing: border-box;
+/* collusion block */
+
+.collusion__content {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: end;
+  padding: 0 0 5% 55%;
 }
 
-
-.type a {
-    color: #22262A;
-    margin: 5px 0;
-    font-weight: 700;
-    letter-spacing: 0.5px;
-    padding-right: 8px;
+.collusion {
+  background: url(./images/main-block-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
 }
 
-
-.overlay {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    height: 100%;
-    background-color: rgba(92, 95, 236, 0.6);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+.collusion__content {
+  font-size: 18px;
 }
 
-
-.buy-btn {
-    width: 160px;
-    height: 40px;
-    background-color: #FFFFFF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #252525;
-    font-weight: 700;
-    letter-spacing: 1px;
-    border-radius: 20px;
-    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+.collusion__content h3 {
+  text-transform: uppercase;
+  font-weight: 500;
 }
 
-.buy-btn:hover {
-    color: #FFFFFF;
-    background-color: #f15fa3;
-    transition: all ease 0.3s;
+.collusion__title {
+  font-size: 80px;
+  text-transform: uppercase;
 }
 
-.overlay {
-    visibility: hidden;
+.btn {
+  text-transform: uppercase;
+  width: 147px;
+  height: 35px;
+  color: #fff;
+  background-color: #000;
+  border: none;
+  margin: 17px;
 }
 
+/* avone block */
 
-.slider {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.avone__title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 15px 0;
+}
+
+.avone__subtitle {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  padding-bottom: 60px;
+}
+
+.avone__images {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding-right: 55px;
+}
+
+.bottom-image {
+  position: relative;
+}
+
+.small-image img {
+  position: absolute;
+  bottom: -2.5%;
+  right: -13%;
+  border: 25px solid white;
+  max-width: 227px;
+}
+
+.show-dress {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: end;
+  height: 25%;
+}
+
+.show-dress p {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 400;
+  border-bottom: 1px solid #000;
+  line-height: 37px;
+}
+
+.left-image {
+  padding-top: 6%;
 }

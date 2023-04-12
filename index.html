@@ -1,174 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Fashion</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" type="text/css" href="./lightslider.css">
-  <script type="text/javascript" src="./js/jquery.js"></script>
-  <script type="text/javascript" src="./js/lightslider.js"></script>
-  <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
-
-  <main>
-
-
-
-    <!-- slider janara -->
-    <section class="slider">
-      <div class="container">
-        <div class="title__cover">
-          <h3 class="women-fasion__title">women's fashion</h3>
-          <p class="women-fasion__subtitle">Shop our new arrivals from established brands</p>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fashion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./media.css" />
+  </head>
+  <body>
+    <header class="header container">
+      <nav class="navbar">
+        <a class="logo" href="#"
+          ><img src="./images/main-logo.svg" alt="main logo" class="main-logo"
+        /></a>
+        <input type="checkbox" id="toggler" />
+        <label class="burger-btn" for="toggler"
+          ><span
+            ><img
+              class="burger-menu"
+              src="./images/burger.svg"
+              alt="burger menu" /></span
+        ></label>
+        <div class="navbar__menu">
+          <ul class="list">
+            <li><a class="navbar__link" href="#">Home</a></li>
+            <li><a class="navbar__link" href="#">Shop</a></li>
+            <li><a class="navbar__link" href="#">Lookbook</a></li>
+            <li><a class="navbar__link" href="#">Features</a></li>
+            <li><a class="navbar__link" href="#">Pages</a></li>
+            <li><a class="navbar__link" href="#">Blog</a></li>
+          </ul>
         </div>
-        <ul id="autoWidth" class="cs-hidden">
-          <li class="item-a">
-            <div class="box">
-              <div class="silde-img">
-                <img src="./images/1.png" alt="1">
-                <div class="overlay">
-                  <a href="" class="buy-btn">buy now</a>
-                </div>
-              </div>
-              <div class="detail-box">
-                <div class="type">
-                  <a href="">IGURE</a>
-                  <p>GREEN MUSCLE FIT POLO SHIRT</p>
-                  <a href="" class="price">$229.00 $129.00</a>
-                </div>
-              </div>
-            </div>
-          </li>
-
-          <li class="item-b">
-            <div class="box">
-              <div class="silde-img">
-                <img src="./images/2.png" alt="1">
-                <div class="overlay">
-                  <a href="" class="buy-btn">buy now</a>
-                </div>
-              </div>
-              <div class="detail-box">
-                <div class="type">
-                  <a href="">IGURE</a>
-                  <p>GREEN MUSCLE FIT POLO SHIRT</p>
-                  <a href="" class="price">$229.00 $129.00</a>
-                </div>
-              </div>
-            </div>
-          </li>
-
-          <li class="item-c">
-            <div class="box">
-              <div class="silde-img">
-                <img src="./images/3.png" alt="1">
-                <div class="overlay">
-                  <a href="" class="buy-btn">buy now</a>
-                </div>
-              </div>
-              <div class="detail-box">
-                <div class="type">
-                  <a href="">IGURE</a>
-                  <p>GREEN MUSCLE FIT POLO SHIRT</p>
-                  <a href="" class="price">$229.00 $129.00</a>
-                </div>
-              </div>
-            </div>
-          </li>
-
-          <li class="item-d">
-            <div class="box">
-              <div class="silde-img">
-                <img src="./images/4.png" alt="1">
-              </div>
-              <div class="detail-box">
-                <div class="type">
-                  <a href="">IGURE</a>
-                  <p>GREEN MUSCLE FIT POLO SHIRT</p>
-                  <a href="" class="price">$229.00 $129.00</a>
-                </div>
-              </div>
-            </div>
-          </li>
-
-          <li class="item-e">
-            <div class="box">
-              <div class="silde-img">
-                <img src="./images/1.png" alt="1">
-              </div>
-              <div class="detail-box">
-                <div class="type">
-                  <a href="">IGURE</a>
-                  <p>GREEN MUSCLE FIT POLO SHIRT</p>
-                  <a href="" class="price">$229.00 $129.00</a>
-                </div>
-              </div>
-            </div>
-          </li>
-
-          <li class="item-f">
-            <div class="box">
-              <div class="silde-img">
-                <img src="./images/2.png" alt="1">
-              </div>
-              <div class="detail-box">
-                <div class="type">
-                  <a href="">IGURE</a>
-                  <p>GREEN MUSCLE FIT POLO SHIRT</p>
-                  <a href="" class="price">$229.00 $129.00</a>
-                </div>
-              </div>
-            </div>
-          </li>
-
-          <li class="item-g">
-            <div class="box">
-              <div class="silde-img">
-                <img src="./images/3.png" alt="1">
-              </div>
-              <div class="detail-box">
-                <div class="type">
-                  <a href="">IGURE</a>
-                  <p>GREEN MUSCLE FIT POLO SHIRT</p>
-                  <a href="" class="price">$229.00 $129.00</a>
-                </div>
-              </div>
-            </div>
-          </li>
-
-          <li class="item-h">
-            <div class="box">
-              <div class="silde-img">
-                <img src="./images/4.png" alt="1">
-              </div>
-              <div class="detail-box">
-                <div class="type">
-                  <a href="">IGURE</a>
-                  <p>GREEN MUSCLE FIT POLO SHIRT</p>
-                  <a href="" class="price">$229.00 $129.00</a>
-                </div>
-              </div>
-            </div>
-          </li>
-        </ul>
+        <a href="#">
+          <img
+            src="./images/search-heart-cart.svg"
+            alt="cart heart search logo"
+            class="cart-logo"
+          />
+        </a>
+      </nav>
+    </header>
+    <main>
+      <!--collusion block-->
+      <div class="collusion">
+        <div class="collusion__content">
+          <h3>New trend</h3>
+          <h1 class="collusion__title">Collusion</h1>
+          <p>An exclusive selection of this season's trends.</p>
+          <div class="btns">
+            <button class="btn">Discover</button>
+            <button class="btn">Shop now</button>
+          </div>
+        </div>
       </div>
-    </section>
-
-
-
-
-  </main>
-
-  <script src="./js/script.js"></script>
-</body>
-
+      <!--avone styles-->
+      <div class="avone container">
+        <h3 class="avone__title">Avone styles</h3>
+        <p class="avone__subtitle">Chose Your Favorite Color</p>
+        <div class="avone__images">
+          <div class="left-image">
+            <img src="./images/left-image.png" alt="left image" />
+          </div>
+          <div class="bottom-image">
+            <div class="right-image">
+              <img src="./images/right-image.png" alt="right image" />
+            </div>
+            <div class="show-dress">
+              <p>show women's dress</p>
+              <div class="small-image">
+                <img src="./images/bottom-image.png" alt="bottom image" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>

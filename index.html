@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -10,12 +9,12 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
     rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="./lightslider.css">
+    <script type="text/javascript" src="./js/jquery.js"></script>
+    <script type="text/javascript" src="./js/lightslider.js"></script>
   <link rel="stylesheet" href="./normalize.css" />
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="./style.css" />
   <link rel="stylesheet" href="./media.css" />
-  <link rel="stylesheet" type="text/css" href="./lightslider.css">
-  <script type="text/javascript" src="./js/jquery.js"></script>
-  <script type="text/javascript" src="./js/lightslider.js"></script>
 </head>
 
 <body>
@@ -27,12 +26,12 @@
             alt="burger menu" /></span></label>
       <div class="navbar__menu">
         <ul class="list">
-          <li><a class="navbar__link" href="#">Home</a></li>
-          <li><a class="navbar__link" href="#">Shop</a></li>
-          <li><a class="navbar__link" href="#">Lookbook</a></li>
-          <li><a class="navbar__link" href="#">Features</a></li>
-          <li><a class="navbar__link" href="#">Pages</a></li>
-          <li><a class="navbar__link" href="#">Blog</a></li>
+          <li><a class="navbar__link" href="#home">Home</a></li>
+          <li><a class="navbar__link" href="#shop">Shop</a></li>
+          <li><a class="navbar__link" href="#lookbook">Lookbook</a></li>
+          <li><a class="navbar__link" href="#features">Features</a></li>
+          <li><a class="navbar__link" href="#pages">Pages</a></li>
+          <li><a class="navbar__link" href="#blog">Blog</a></li>
         </ul>
       </div>
       <a href="#">
@@ -43,6 +42,7 @@
   <main>
     <!--collusion block-->
     <div class="collusion">
+      <a name="home"></a>
       <div class="collusion__content">
         <h3>New trend</h3>
         <h1 class="collusion__title">Collusion</h1>
@@ -57,6 +57,7 @@
 
     <!-- category -->
     <section class="category">
+      <a name="shop"></a>
       <div class="container">
         <div class="category__cover">
           <div class="category__left">
@@ -72,6 +73,7 @@
           </div>
           <div class="category__right">
             <img class="category__img-man" src="./images/category-img/4.png" alt="man image">
+            <button class="category-name">category name</button>
           </div>
         </div>
       </div>
@@ -80,6 +82,7 @@
 
     <!-- slider -->
     <section class="slider">
+      <a name="lookbook"></a>
       <div class="container">
         <div class="title__cover">
           <h3 class="slider__title">women's fashion</h3>
@@ -89,7 +92,7 @@
           <li class="item-a">
             <div class="women-fashion__box">
               <div class="women-fashion__cover">
-                <img class="women-fashion__img" src="./images/fashion-img/1.png" alt="1">
+                <img class="women-fashion__img" src="./images/fashion-img/1.png" alt="blue t-shirt">
               </div>
               <p>IGURE</p>
               <p class="man-fashion__descr">GREEN MUSCLE FIT POLO SHIRT</p>
@@ -103,7 +106,7 @@
           <li class="item-b">
             <div class="women-fashion__box">
               <div class="women-fashion__cover">
-                <img class="women-fashion__img" src="./images/fashion-img/2.png" alt="1">
+                <img class="women-fashion__img" src="./images/fashion-img/2.png" alt="blue blose">
               </div>
               <p>IGURE</p>
               <p class="man-fashion__descr">GREEN MUSCLE FIT POLO SHIRT</p>
@@ -117,7 +120,7 @@
           <li class="item-c">
             <div class="women-fashion__box">
               <div class="women-fashion__cover">
-                <img class="women-fashion__img" src="./images/fashion-img/3.png" alt="1">
+                <img class="women-fashion__img" src="./images/fashion-img/3.png" alt="red pullover">
               </div>
               <p>IGURE</p>
               <p class="man-fashion__descr">GREEN MUSCLE FIT POLO SHIRT</p>
@@ -131,7 +134,7 @@
           <li class="item-d">
             <div class="women-fashion__box">
               <div class="women-fashion__cover">
-                <img class="women-fashion__img" src="./images/fashion-img/4.png" alt="1">
+                <img class="women-fashion__img" src="./images/fashion-img/4.png" alt="black jacket">
               </div>
               <p>IGURE</p>
               <p class="man-fashion__descr">GREEN MUSCLE FIT POLO SHIRT</p>
@@ -145,7 +148,7 @@
           <li class="item-e">
             <div class="women-fashion__box">
               <div class="women-fashion__cover">
-                <img class="women-fashion__img" src="./images/fashion-img/1.png" alt="1">
+                <img class="women-fashion__img" src="./images/fashion-img/1.png" alt="blue t-shirt">
               </div>
               <p>IGURE</p>
               <p class="man-fashion__descr">GREEN MUSCLE FIT POLO SHIRT</p>
@@ -159,7 +162,7 @@
           <li class="item-f">
             <div class="women-fashion__box">
               <div class="women-fashion__cover">
-                <img class="women-fashion__img" src="./images/fashion-img/2.png" alt="1">
+                <img class="women-fashion__img" src="./images/fashion-img/2.png" alt="blue blose">
               </div>
               <p>IGURE</p>
               <p class="man-fashion__descr">GREEN MUSCLE FIT POLO SHIRT</p>
@@ -173,7 +176,7 @@
           <li class="item-g">
             <div class="women-fashion__box">
               <div class="women-fashion__cover">
-                <img class="women-fashion__img" src="./images/fashion-img/3.png" alt="1">
+                <img class="women-fashion__img" src="./images/fashion-img/3.png" alt="red pullover">
               </div>
               <p>IGURE</p>
               <p class="man-fashion__descr">GREEN MUSCLE FIT POLO SHIRT</p>
@@ -187,7 +190,7 @@
           <li class="item-h">
             <div class="women-fashion__box">
               <div class="women-fashion__cover">
-                <img class="women-fashion__img" src="./images/fashion-img/4.png" alt="1">
+                <img class="women-fashion__img" src="./images/fashion-img/4.png" alt="black jacket">
               </div>
               <p>IGURE</p>
               <p class="man-fashion__descr">GREEN MUSCLE FIT POLO SHIRT</p>
@@ -203,6 +206,7 @@
 
     <!-- man-fashion -->
     <section class="man-fashion">
+      <a name="features"></a>
       <div class="container">
         <div class="man-fashion__cover">
           <div class="title__cover">
@@ -212,18 +216,7 @@
           <div class="man-fashion__row">
             <div class="man-fashion__card">
               <div class="man-fashion__img-cover">
-                <img class="man-fashion__img" src="./images/fashion-img/5.png" alt="">
-              </div>
-              <p>IGURE</p>
-              <p class="man-fashion__descr">GREEN MUSCLE FIT POLO SHIRT</p>
-              <div class="man-fashion__price">
-                <p class="man-fashion__black">$229.00 </p>
-                <p class="man-fashion__red">$129.00</p>
-              </div>
-            </div>
-            <div class="man-fashion__card">
-              <div class="man-fashion__img-cover">
-                <img class="man-fashion__img" src="./images/fashion-img/6.png" alt="">
+                <img class="man-fashion__img" src="./images/fashion-img/5.png" alt="costume">
               </div>
               <p class="man-fashion__card-title">IGURE</p>
               <p class="man-fashion__descr">GREEN MUSCLE FIT POLO SHIRT</p>
@@ -234,9 +227,9 @@
             </div>
             <div class="man-fashion__card">
               <div class="man-fashion__img-cover">
-                <img class="man-fashion__img" src="./images/fashion-img/7.png" alt="">
+                <img class="man-fashion__img" src="./images/fashion-img/6.png" alt="sleeveless shirt">
               </div>
-              <p>IGURE</p>
+              <p class="man-fashion__card-title">IGURE</p>
               <p class="man-fashion__descr">GREEN MUSCLE FIT POLO SHIRT</p>
               <div class="man-fashion__price">
                 <p class="man-fashion__black">$229.00 </p>
@@ -245,9 +238,20 @@
             </div>
             <div class="man-fashion__card">
               <div class="man-fashion__img-cover">
-                <img class="man-fashion__img" src="./images/fashion-img/8.png" alt="">
+                <img class="man-fashion__img" src="./images/fashion-img/7.png" alt="givenchy">
               </div>
-              <p>IGURE</a>
+              <p class="man-fashion__card-title">IGURE</p>
+              <p class="man-fashion__descr">GREEN MUSCLE FIT POLO SHIRT</p>
+              <div class="man-fashion__price">
+                <p class="man-fashion__black">$229.00 </p>
+                <p class="man-fashion__red">$129.00</p>
+              </div>
+            </div>
+            <div class="man-fashion__card">
+              <div class="man-fashion__img-cover">
+                <img class="man-fashion__img" src="./images/fashion-img/8.png" alt="pink hoodie">
+              </div>
+              <p class="man-fashion__card-title">IGURE</a>
               <p class="man-fashion__descr">GREEN MUSCLE FIT POLO SHIRT</p>
               <div class="man-fashion__price">
                 <p class="man-fashion__black">$229.00 </p>
@@ -259,8 +263,10 @@
         </div>
       </div>
     </section>
+
     <!--avone styles-->
     <div class="avone container">
+      <a name="pages"></a>
       <h3 class="avone__title">Avone styles</h3>
       <p class="avone__subtitle">Chose Your Favorite Color</p>
       <div class="avone__images">
@@ -280,16 +286,19 @@
         </div>
       </div>
     </div>
+
+    <!--tachen block-->
     <div class="tachen">
+      <a name="blog"></a>
       <div class="container">
         <div class="tachen__content">
-          <p>
+          <p class="tachen__subtitle">
             OWN THE DAY
           </p>
-          <h2>
+          <h2 class="tachen__title">
             TACHEN 19
           </h2>
-          <button>
+          <button class="tachen-btn btn">
             SHOP COLLECTION
           </button>
         </div>
@@ -315,7 +324,7 @@
             </span>
           </div>
           <div class="footer__left-email">
-            <p>
+            <p class="for-border">
               kawsarahmed0210@gmail.com
             </p>
             <span>01647470457</span>
@@ -331,7 +340,7 @@
           </h3>
           <form action="#" class="footer__form">
             <input class="footer__input" type="email"
-              placeholder="Your Email Address                                                                 JOIN">
+              placeholder="Your Email Address                                                     JOIN">
           </form>
           <div class="footer__info">
             <div class="footer__info-1">

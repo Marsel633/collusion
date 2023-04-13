@@ -1,44 +1,52 @@
-@media screen and (max-width: 1440px) {
-    .slider {
-        height: 65vh;
+@media screen and (max-width: 1200px) {
+    .container {
+        max-width: 1000px;
+    }
+    .collusion__content,
+    .tachen__subtitle,
+    .btn {
+        font-size: 1em !important;
     }
 
-    .man-fashion {
-        padding-top: 100px;
+    .collusion__title,
+    .tachen__title {
+        font-size: 4em !important;
     }
 
-}
-
-
-@media screen and (max-width: 1100px) {
-    .category {
-        padding: 0 80px;
-    }
-
-    .slider {
-        height: 75vh;
-    }
-}
-
-@media screen and (max-width: 1024px) {
     .category__cover {
-        display: flex;
-        flex-wrap: wrap;
+        column-gap: 15px;
     }
 
     .category__bottom {
-        padding-bottom: 20px;
-
+        padding: 3px 0;
+        justify-content: space-between;
     }
 
-    .slider .container {
-        width: 85%;
-        margin: 0 auto;
+    .slider {
+        height: 73vh;
+    }
+
+    .man-fashion {
+        padding-top: 40px;
     }
 }
 
-
 @media screen and (max-width: 998px) {
+    .container {
+        max-width: 832px;
+    }
+
+    .collusion__content,
+    .tachen__subtitle,
+    .btn {
+        font-size: 0.9em !important;
+    }
+
+    .collusion__title,
+    .tachen__title {
+        font-size: 3.5em !important;
+    }
+
     .navbar__menu {
         width: 100%;
         max-height: 0;
@@ -65,186 +73,190 @@
         max-height: 100%;
     }
 
-
-}
-
-@media screen and (max-width: 1200px) {
-    .collusion__content,
-    .avone__title {
-        font-size: 1em;
-    }
-
-    .collusion__title {
-        font-size: 4em;
-    }
-    .tachen__content {
-        display: flex;
-        flex-direction: column;
-        height: 400px;
-        justify-content: end;
-        margin-left: 20px;
-    }
-
-    .footer__left {
-        width: 50%;
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-        margin-left: 20px;
-    }
-
-    .category {
-        padding: 100px 50px 0;
+    .collusion__content {
+        padding: 0 0 0 50%;
     }
 
     .category__cover {
-        column-gap: 15px;
-    }
-
-    .slider {
-        height: 73vh;
-    }
-
-    .man-fashion {
-        padding-top: 40px;
-    }
-}
-
-@media screen and (max-width: 992px) {
-    .tachen__content {
         display: flex;
-        flex-direction: column;
-        height: 400px;
-        justify-content: end;
-        margin-left: 15px;
+        flex-wrap: wrap;
     }
 
-    .footer__left {
-        width: 49%;
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-        margin-left: 15px;
-    }
-
-    .footer__left-email p {
-        border-bottom: 2px solid grey;
-        width: 39%;
-        padding-bottom: 5px;
-    }
-
-    .category__left {
-        padding-top: 60px;
-    }
-
-    .slider {
-        height: 65vh;
+    .category-name {
+        width: 170px;
     }
 
     .man-fashion__row {
-        display: flex;
-        flex-wrap: wrap;
-        column-gap: 30px;
-        row-gap: 50px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        justify-items: center;
     }
 
-    .slider .container {
-        width: 85%;
-        margin: 0 auto;
-    }
-}
-
-@media screen and (max-width: 973px) {
-
-    .tachen {
-        background-image: url(../img/17\ 1.png);
-        width: 100%;
-        height: 450px;
-        background-size: cover;
+    .slider__title,
+    .avone__title,
+    .category__right button {
+        font-size: 1.1em;
     }
 
-    .tachen__content {
-        display: flex;
-        flex-direction: column;
-        height: 800px;
-        justify-content: end;
+    .man-fashion__black,
+    .man-fashion__descr,
+    .man-fashion__red,
+    .show-dress p,
+    .slider__subtitle,
+    .avone__subtitle {
+        font-size: 0.8em;
+    }
+
+    .show-dress {
+        float: left;
     }
 
     .footer__content {
-        display: flex;
-        flex-wrap: wrap;
-        max-width: 100%;
-        height: 700px;
-        justify-content: center;
-        align-items: center;
+        height: 85vh;
+    }
+
+    .footer__left,
+    .footer__right h3 {
         text-align: center;
     }
 
-    .tachen__content {
-        display: flex;
-        flex-direction: column;
-        height: 400px;
-        justify-content: end;
-        margin-left: 15px;
+    .footer__left h3,
+    .footer__right h3 {
+        font-size: 1.5em;
+    }
+
+    .footer__input,
+    .list,
+    .footer__left p,
+    .comilla span,
+    .footer__end p,
+    .footer__left span,
+    .footer__content,
+    .man-fashion__card-title,
+    .women-fashion__box > p {
+        font-size: 0.9em;
     }
 
     .comilla {
-        display: flex;
-        gap: 3%;
         justify-content: center;
-    }
-
-    .footer__left-email {
-        display: flex;
-        flex-direction: column;
-        gap: 5px;
-        align-items: center;
-    }
-
-    .footer__left-email p {
-        border-bottom: 2px solid grey;
-        width: 52%;
-        padding-bottom: 5px;
-    }
-
-    .footer__left {
-        width: 45%;
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-        margin-left: 15px;
-    }
-
-    .footer__info-1 {
-        display: flex;
-        flex-direction: column;
-        gap: 25px;
-        text-align: start;
-    }
-
-    .footer__info-2 {
-        display: flex;
-        flex-direction: column;
-        gap: 25px;
-        text-align: start;
-    }
-
-    .footer__info-3 {
-        display: flex;
-        flex-direction: column;
-        gap: 25px;
-        text-align: start;
     }
 }
 
 @media screen and (max-width: 768px) {
+    .container {
+        max-width: 640px;
+    }
+
     .slider .container {
-        width: 75%;
-        margin: 0 auto;
+        max-width: 580px;
+    }
+
+    .collusion__content {
+        padding: 0 0 13% 50%;
+    }
+
+    .category-name {
+        width: 140px;
+    }
+
+    .btn {
+        width: 120px;
+        margin: 10px;
+    }
+
+    .collusion__content,
+    .tachen__subtitle,
+    .btn {
+        font-size: 0.8em !important;
+    }
+
+    .category__right button {
+        font-size: 0.8em;
+    }
+
+    .collusion__title,
+    .tachen__title {
+        font-size: 3em !important;
+    }
+
+    .slider {
+        height: 60vh;
     }
 
     .slider__title {
-        padding-top: 60px;
+        padding-top: 20px;
+    }
+
+    .slider__title,
+    .avone__title {
+        font-size: 1em;
+    }
+
+    .man-fashion__black,
+    .man-fashion__descr,
+    .man-fashion__red,
+    .show-dress p,
+    .slider__subtitle,
+    .avone__subtitle {
+        font-size: 0.7em;
+    }
+
+    .avone {
+        padding: 5% 10px;
+    }
+
+    .avone__images {
+        flex-direction: column;
+        align-items: center;
+        padding-right: 0;
+    }
+
+    .left-image {
+        padding-top: 0;
+    }
+
+    .bottom-image {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .show-dress p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .small-image img {
+        position: static;
+        border: none;
+    }
+
+    .show-dress {
+        flex-direction: column-reverse;
+    }
+
+    .tachen__content > button {
+        width: 150px;
+    }
+
+    .footer__left h3,
+    .footer__right h3 {
+        font-size: 1.3em;
+    }
+
+    .list li a,
+    .footer__input,
+    .list,
+    .footer__left p,
+    .comilla span,
+    .footer__end p,
+    .footer__left span,
+    .footer__content,
+    .man-fashion__card-title,
+    .women-fashion__box > p {
+        font-size: 0.8em;
     }
 }
 
@@ -252,105 +264,195 @@
     .category__cover {
         display: flex;
         align-items: center;
-        padding-left: 10%;
     }
 
-    .category__img-man {
-        width: 90%;
+    .btn {
+        width: 75px;
+        margin: 5px;
+        height: 30px;
     }
 
-    .category__bottom {
-        column-gap: 0;
-        padding-bottom: 20px;
+    .collusion__content,
+    .tachen__subtitle,
+    .btn {
+        font-size: 0.7em !important;
     }
 
-    .category__img-women {
-        width: 80%;
-        margin: 0;
-        padding: 0;
+    .collusion__title,
+    .tachen__title {
+        font-size: 2.7em !important;
     }
 
-    .slider .container {
-        width: 100%;
-        margin: 0 auto;
-        padding: 0 15px;
+    .slider {
+        height: 60vh;
+    }
+
+    .man-fashion__row {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .man-fashion__card-title {
+        text-align: center;
+    }
+
+    .man-fashion__row .man-fashion__descr,
+    .man-fashion__row .man-fashion__price {
+        text-align: center;
+    }
+
+    .man-fashion__row .man-fashion__price {
+        justify-content: center;
+    }
+
+    .slider__title,
+    .avone__title {
+        font-size: 0.9em;
+    }
+
+    .man-fashion__black,
+    .man-fashion__descr,
+    .man-fashion__red,
+    .show-dress p,
+    .slider__subtitle,
+    .avone__subtitle {
+        font-size: 0.6em;
+    }
+
+    .footer__left h3,
+    .footer__right h3 {
+        font-size: 1.1em;
+    }
+
+    .footer__input,
+    .list,
+    .footer__left p,
+    .comilla span,
+    .footer__end p,
+    .footer__left span,
+    .footer__content,
+    .man-fashion__card-title,
+    .women-fashion__box > p {
+        font-size: 0.7em;
+    }
+
+    .footer__content {
+        height: 75vh;
+    }
+
+    .footer__left,
+    .footer__info-1,
+    .footer__info-2,
+    .footer__info-3 {
+        gap: 15px;
+    }
+
+    .tachen__content > button {
+        width: 115px;
+    }
+
+    .location__img {
+        width: 10px;
+        height: 10px;
+    }
+
+    .icons__img {
+        width: 80px;
+        height: 10px;
     }
 }
-
-
 
 @media screen and (max-width: 500px) {
-    .category {
-        padding: 0 80px;
-    }
-
-    .category__cover {
-        padding-left: 0;
-    }
-
     .slider .container {
-        width: 64%;
-        margin: 0 auto;
+        width: 300px;
     }
 
-    .man-subtitle {
-        width: 80%;
-        padding-left: 70px;
+    .collusion__content {
+        padding: 0 0 0 45%;
     }
 
-    .category__img-women {
-        width: 100%;
+    .women-fashion__box {
+        text-align: center;
     }
 
-    .category__img-man {
-        width: 100%;
+    .man-fashion__price {
+        justify-content: center;
     }
-
-}
-
-
-@media screen and (max-width: 425px) {
-    .slider .container {
-        width: 70%;
-        margin: 0 auto;
-    }
-
-    .category__cover {
-        padding-left: 10px;
-    }
-
-    .category__img-women {
-        width: 100%;
-    }
-
-    .category__img-man {
-        width: 100%;
-    }
-}
-
-
-@media screen and (max-width: 375px) {
-    .category {
-        padding: 0;
-    }
-
-    .slider .container {
-        width: 80%;
-        margin: 0 auto;
-    }
-
-
 }
 
 @media screen and (max-width: 320px) {
-
-    .category {
-        padding-bottom: 0;
-    }
-
-
     .slider .container {
         width: 95%;
         margin: 0 auto;
     }
+
+    .tachen {
+        height: 60vh;
+    }
+
+    .tachen__content {
+        height: 45vh;
+    }
+
+    .btn {
+        width: 75px;
+        margin: 5px;
+        height: 20px;
+    }
+
+    .collusion__content,
+    .tachen__subtitle,
+    .btn {
+        font-size: 0.6em !important;
+    }
+
+    .collusion__title,
+    .tachen__title {
+        font-size: 2.4em !important;
+    }
+
+    .slider__title,
+    .avone__title {
+        font-size: 0.8em;
+    }
+
+    .man-fashion__black,
+    .man-fashion__descr,
+    .man-fashion__red,
+    .show-dress p,
+    .slider__subtitle,
+    .avone__subtitle {
+        font-size: 0.5em;
+    }
+
+    .footer__left h3,
+    .footer__right h3 {
+        font-size: 0.9em;
+    }
+
+    .footer__input,
+    .list,
+    .footer__left p,
+    .comilla span,
+    .footer__end p,
+    .footer__left span,
+    .footer__content,
+    .man-fashion__card-title,
+    .women-fashion__box > p {
+        font-size: 0.6em;
+    }
+
+    .man-fashion {
+        padding-top: 20px;
+    }
+
+    .category__right button {
+        font-size: 0.6em;
+    }
+
+    .category-name {
+        width: 100px;
+        height: 30px;
+    }
+
 }

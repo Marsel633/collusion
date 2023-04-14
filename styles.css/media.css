@@ -36,6 +36,14 @@
         max-width: 832px;
     }
 
+    .collusion {
+        height: 58vh;
+    }
+
+    .collusion__content {
+        height: 50vh;
+    }
+
     .collusion__content,
     .tachen__subtitle,
     .btn {
@@ -73,10 +81,6 @@
         max-height: 100%;
     }
 
-    .collusion__content {
-        padding: 0 0 0 50%;
-    }
-
     .category__cover {
         display: flex;
         flex-wrap: wrap;
@@ -112,8 +116,16 @@
         float: left;
     }
 
+    .tachen {
+        height: 58vh;
+    }
+
+    .tachen__content {
+        height: 45vh;
+    }
+
     .footer__content {
-        height: 85vh;
+        height: 75vh;
     }
 
     .footer__left,
@@ -152,8 +164,12 @@
         max-width: 580px;
     }
 
+    .collusion {
+        height: 33vh;
+    }
+
     .collusion__content {
-        padding: 0 0 13% 50%;
+        height: 29vh;
     }
 
     .category-name {
@@ -161,14 +177,14 @@
     }
 
     .btn {
-        width: 120px;
+        width: 107px;
         margin: 10px;
     }
 
     .collusion__content,
     .tachen__subtitle,
     .btn {
-        font-size: 0.8em !important;
+        font-size: 0.7em !important;
     }
 
     .category__right button {
@@ -237,6 +253,14 @@
         flex-direction: column-reverse;
     }
 
+    .tachen {
+        height: 33vh;
+    }
+
+    .tachen__content {
+        height: 27vh;
+    }
+
     .tachen__content > button {
         width: 150px;
     }
@@ -244,6 +268,14 @@
     .footer__left h3,
     .footer__right h3 {
         font-size: 1.3em;
+    }
+
+    .footer__content {
+        height: 60vh;
+    }
+
+    .footer__left {
+        gap: 15px;
     }
 
     .list li a,
@@ -261,6 +293,14 @@
 }
 
 @media screen and (max-width: 576px) {
+    .collusion {
+        height: 33vh;
+    }
+
+    .collusion__content {
+        height: 27vh;
+        padding: 0 0 0 55%;
+    }
     .category__cover {
         display: flex;
         align-items: center;
@@ -272,11 +312,11 @@
         height: 30px;
     }
 
-    .collusion__content,
+    /* .collusion__content,
     .tachen__subtitle,
     .btn {
         font-size: 0.7em !important;
-    }
+    } */
 
     .collusion__title,
     .tachen__title {
@@ -305,26 +345,27 @@
         justify-content: center;
     }
 
+/* 
     .slider__title,
     .avone__title {
         font-size: 0.9em;
-    }
+    } */
 
-    .man-fashion__black,
+    /* .man-fashion__black,
     .man-fashion__descr,
     .man-fashion__red,
     .show-dress p,
     .slider__subtitle,
     .avone__subtitle {
         font-size: 0.6em;
-    }
+    } */
 
     .footer__left h3,
     .footer__right h3 {
         font-size: 1.1em;
     }
 
-    .footer__input,
+    /* .footer__input,
     .list,
     .footer__left p,
     .comilla span,
@@ -334,10 +375,10 @@
     .man-fashion__card-title,
     .women-fashion__box > p {
         font-size: 0.7em;
-    }
+    } */
 
     .footer__content {
-        height: 75vh;
+        height: 58vh;
     }
 
     .footer__left,
@@ -347,8 +388,16 @@
         gap: 15px;
     }
 
+    .tachen {
+        height: 33vh;
+    }
+
+    .tachen__content {
+        height: 27vh;
+    }
+
     .tachen__content > button {
-        width: 115px;
+        width: 135px;
     }
 
     .location__img {
@@ -381,21 +430,34 @@
 }
 
 @media screen and (max-width: 320px) {
+    .collusion {
+        height: 18vh;
+    }
+
+    .collusion__content {
+        height: 15vh;
+        padding: 0 0 0 55%;
+    }
     .slider .container {
         width: 95%;
         margin: 0 auto;
     }
 
     .tachen {
-        height: 60vh;
+        height: 18vh;
     }
 
     .tachen__content {
-        height: 45vh;
+        height: 15vh;
+    }
+
+    .tachen__content button {
+        width: 80px;
+        height: 25px;
     }
 
     .btn {
-        width: 75px;
+        width: 55px;
         margin: 5px;
         height: 20px;
     }
@@ -403,19 +465,26 @@
     .collusion__content,
     .tachen__subtitle,
     .btn {
-        font-size: 0.6em !important;
+        font-size: 0.4em !important;
     }
 
-    .collusion__title,
+    .collusion__title {
+        font-size: 2.4em;
+    }
+
     .tachen__title {
-        font-size: 2.4em !important;
+        font-size: 1.4em !important;
     }
 
+    .footer__end {
+        text-align: center;
+    }
+/* 
     .slider__title,
     .avone__title {
         font-size: 0.8em;
-    }
-
+    } */
+/* 
     .man-fashion__black,
     .man-fashion__descr,
     .man-fashion__red,
@@ -423,14 +492,14 @@
     .slider__subtitle,
     .avone__subtitle {
         font-size: 0.5em;
-    }
+    } */
 
-    .footer__left h3,
+    /* .footer__left h3,
     .footer__right h3 {
         font-size: 0.9em;
-    }
+    } */
 
-    .footer__input,
+    /* .footer__input,
     .list,
     .footer__left p,
     .comilla span,
@@ -440,6 +509,10 @@
     .man-fashion__card-title,
     .women-fashion__box > p {
         font-size: 0.6em;
+    } */
+
+    .small-image img {
+        min-width: 298px;
     }
 
     .man-fashion {
@@ -453,6 +526,16 @@
     .category-name {
         width: 100px;
         height: 30px;
+    }
+
+    .footer__content {
+        height: 95vh;
+        text-align: center;
+    }
+
+    .footer__info {
+        flex-direction: column;
+        gap: 15px;
     }
 
 }

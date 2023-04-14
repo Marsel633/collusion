@@ -44,6 +44,13 @@ img {
 }
 
 /* collusion block */
+.collusion {
+  background-image: url(../images/main-block-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
 
 .collusion__content {
   display: flex;
@@ -51,14 +58,6 @@ img {
   height: 88vh;
   justify-content: end;
   padding: 0 0 0 55%;
-}
-
-.collusion {
-  background: url(./images/main-block-bg.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
 }
 
 .collusion__content {
@@ -337,7 +336,7 @@ ul {
 /* tachen block */
 
 .tachen {
-  background-image: url(./img/17\ 1.png);
+  background-image: url(../img/17\ 1.png);
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 20px;

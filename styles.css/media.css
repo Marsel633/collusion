@@ -332,6 +332,21 @@
         grid-template-columns: repeat(1, 1fr);
     }
 
+    .bottom-image {
+        width: 99%;
+    }
+
+    .right-image,
+    .right-image img,
+    .show-dress,
+    .small-image {
+        width: 100%;
+    }
+
+    .small-image img {
+        min-width: 100%;
+    }
+
     .man-fashion__card-title {
         text-align: center;
     }
